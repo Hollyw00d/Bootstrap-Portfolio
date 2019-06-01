@@ -71,7 +71,6 @@ header {
 #logo {
     background: #4aaaa5;
     padding: 0 35px;
-    display: inline-block;
     height: 90px;
 }
 
@@ -84,19 +83,19 @@ header {
 }
 
 nav {
- float: right;
+    height: 100%;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    line-height: 90px;
+    height: 100%;
 }
 
 nav li {
     display: inline-block;
-    padding: 3px 20px;
+    padding: 3px 10px;
     border-right: #efefef 1px solid;
     line-height: 84px;
     height: 30px;
@@ -222,7 +221,15 @@ body.contact button {
     padding: 10px 30px;
 }
 
+@media all and (max-width: 768px) {
+    /* General Classes and STyles */
+    .h1 {
+        font-size: 20px;
+    }
+}
+
 @media all and (max-width: 640px) {
+ 
     /* Header */
     header {
         height: auto;

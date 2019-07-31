@@ -20,7 +20,7 @@ body {
 }
 
 
-/* General Classes and STyles */
+/* General Classes and Styles */
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
@@ -102,6 +102,23 @@ nav a.active:active {
     padding: 0;
     margin: 0 0 40px 0;
     border: 1px solid #666;
+}
+
+/* Font Awesome */
+.fa-icon {
+    font-size: 35px;
+}
+
+.github-icon {
+    padding-bottom: 5px;
+}
+
+.github-icon i {
+    color: #24292e;
+}
+
+.linkedin-icon i {
+    color: #0077b5;
 }
 
 /* Main Section */
